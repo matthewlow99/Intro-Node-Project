@@ -5,7 +5,6 @@ var conn = db.createConnection({
     user: 'root',
     password: '',
     database: 'nodedb'
-
 })
 
 conn.connect(function(error){
